@@ -6,8 +6,11 @@ This repository contains Matlab code to estimate the perceived pulse number (n) 
 
 # Instructions
 The Demo.m demonstrates a simple correction with an AIF signal measured in middle cerebral artery in one of our clinical datasets. This AIF signal could be replaced with any measured AIF signal, either from single arterial voxel or from a region-of-interest in an artery. 
+
 The required parameters should be adjusted according to the acquisition protocol. 
+
 The EstimateNofPulses.m will estimate the received pulse number of the AIF signal.
+
 The EstimateC.m will then reconstruct the AIF with estimated number of pulse. 
 
 # Contact
